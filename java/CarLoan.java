@@ -1,6 +1,6 @@
 public class CarLoan {
   //Simple Car Loan Payment Calculator
-	public static void main(String[] args) {
+  public static void main(String[] args) {
     int carLoan = 10000;
     int loanLength = 3;//3 years
     int interestRate = 5; //interest of 5%
@@ -21,5 +21,5 @@ public class CarLoan {
         System.out.println(monthlyPayment);
       }
     }
-	}
+  }
 }
