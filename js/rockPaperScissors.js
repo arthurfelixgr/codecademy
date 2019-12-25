@@ -3,7 +3,7 @@ const getUserChoice = (userInput) => {
   if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'egg'){
     return userInput;
   } else {
-    return 'Please, insert a valid option.';
+    return 'invalid tool.';
   }
 };
   
