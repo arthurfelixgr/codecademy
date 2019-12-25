@@ -1,6 +1,6 @@
 const getUserChoice = (userInput) => {
   userInput = userInput.toLowerCase();
-  if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInut === 'egg'){
+  if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'egg'){
     return userInput;
   } else {
     return 'Please, insert a valid option.';
