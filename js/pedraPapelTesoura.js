@@ -60,7 +60,7 @@ function determineWinner(userChoice, computerChoice){
 }
 
 function playGame(){
-  const userChoice = getUserChoice('tesoura');
+  const userChoice = getUserChoice('');
   const computerChoice = getComputerChoice();
   console.log('Você escolheu: '+userChoice);
   console.log('O computador escolheu: '+computerChoice);
