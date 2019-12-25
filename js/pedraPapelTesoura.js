@@ -3,7 +3,7 @@ const getUserChoice = (userInput) => {
   if(userInput === 'pedra' || userInput === 'papel' || userInput === 'tesoura' || userInput === 'ovo'){
     return userInput;
   } else {
-    return 'Por favor, insira um opção válida.';
+    return 'objeto inválido.';
   }
 };
   
