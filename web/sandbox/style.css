@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Calligraffitti';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Calligraffitti Regular'), local('Calligraffitti-Regular'), url(https://fonts.gstatic.com/s/calligraffitti/v11/46k2lbT3XjDVqJw3DCmCFjE0vkFeOZc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+#colors{
+  margin: 0 auto;
+}
+
+#colors div {
+  display: inline-block;
+  text-align: center;
+}
+
+.rebeccapurple {
+  background-color: #663399;
+}
+
+.teal {
+  background-color: #008080;
+}
+
+.turquoise {
+  background-color: #40e0d0;
+}
+
+.cyan {
+  background-color: #008b8b;
+}
+
+#fonts div {
+  display: inline-block;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.calligraffitti {
+  font-family: Calligraffitti;
+}
+
+.kaushan {
+  font-family: 'Kaushan Script';
+}
+
+.main span {
+  font-weight: bold;
+  font-size: 26px;
+  font-family: Calligraffitti;
+}
+
+.subheading span {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Kaushan Script';
+}
+
+.p span {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Kaushan Script';
+}
