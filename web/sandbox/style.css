@@ -24,24 +24,25 @@
 
 body {
   font-family: Arial, sans-serif;
-}
-
-main {
-  margin: 0 auto;
+  margin: 0 10%;
+  padding: 10px;
 }
 
 section {
-  border: 1px solid gray;
-  margin: 0 auto;
+  border: 2px solid gray;
+  margin: 10px auto;
 }
 
-#colors{
-  margin: 0 auto;
+#colors {
+  width: 100%;
 }
 
 #colors div {
   display: inline-block;
   text-align: center;
+  width: 32%;
+  margin: 20px auto;
+  min-height: 100px;
 }
 
 .rebeccapurple {
@@ -62,6 +63,7 @@ section {
 
 #fonts div {
   display: inline-block;
+  width: 45%;
 }
 
 .roboto {
@@ -70,6 +72,7 @@ section {
 
 .calligraffitti {
   font-family: Calligraffitti;
+  margin: 0 auto;
 }
 
 .kaushan {
